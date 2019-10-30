@@ -4,6 +4,7 @@ import logo from "./images.jpg";
 import "./App.css";
 import Counter from "./counter";
 import ThumbsDown from "./thumbsDown";
+import Comments from"./comments";
 
 class App extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ class App extends Component {
               <img src={beer.image_url} className="App-logo" alt="logo" />
               <Counter/>
               <ThumbsDown/>
+              <Comments/>
             </div>
             
           )
